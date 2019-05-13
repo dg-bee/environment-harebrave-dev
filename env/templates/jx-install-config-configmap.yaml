@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQe4Ja/krJNgSqKQugORZuSjANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ5OGI5NzJiOC0xNDRmLTQ0MzEtYTNiMy0yMGFiMzQ5NDg1YTAw
+    HhcNMTkwNTEzMDYzMjEzWhcNMjQwNTExMDczMjEzWjAvMS0wKwYDVQQDEyQ5OGI5
+    NzJiOC0xNDRmLTQ0MzEtYTNiMy0yMGFiMzQ5NDg1YTAwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDvGYF6VqVrOJIUyPIbMzb8D74xECyIMuY/cg1loNl9
+    jg5g58WuAy6OTYzhFUWv39ZcDBWDj66uOSJM5HykJaZH6+ZPAKCMOnGdmFArRtAz
+    AASTZSV4jWR7Pipl4HLnIpzv822uGsKI0tMO0hSdSooroRYVC9SSg9Kt0/m1De/s
+    z7/rqEH+SbaWwzYzQbpnW5om3jZB7lvqBsfyc4KA2t0sXIKIXumn1WcJ8W86QWtB
+    enXUeCvopqvjmr8N1tQ/nwRrGokUMBdpFBQAvSsyaHgS3dWnIEFgH+j5lhSoJR7r
+    vyEbeoMy+CoCqk0dqXPIyfn0icDo8SrP4JoFBIgY/aaVAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCZ
+    zS9jjeCcg84PqCR6nVlNtOYbyJyZq5VgvPnz2m6CUXqA8wouMERlkOc/3SFQ453D
+    4snKQ0U+5Hw8q+DLDVok+RPmeO/i+Isn1+6KexkMTBOEOiaNmfl1Yd21xsJjEjJs
+    LEFshylx5iuFrdD/z2lfE9oh/QxY662/8MMe72iaFbIaq18oTCnkxwlNtL0E0iSf
+    8NSKrnTTnD6ignM+IXkjURZCl87R/zwHI9Asm88tnUJE2UVckCYNM3SR4CsGOTz5
+    gM6b9AYr6pCvM1xTptplTtxUqt8vtzI02K9W3Mga4XfoQejMQtC+G41/6Jmb+pVs
+    M8xOw2WqV6a/IC/akiaK
+    -----END CERTIFICATE-----
+  clusterName: harebrave
+  jx-install-version: 2.0.0-dev+67939ffe3
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.205.49.160
+  systemVaultName: jx-vault-harebrave
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
